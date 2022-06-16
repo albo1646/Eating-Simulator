@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -3158742814132878731}
   m_Layer: 0
   m_Name: REAL PIZZA SPRITE
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169,3 +169,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyDirection: left
   enemyHP: 100
+  enemySpeed: 0.005

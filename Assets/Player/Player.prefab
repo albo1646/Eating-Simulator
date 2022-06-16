@@ -143,8 +143,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ce7275625182245ad723a7190306c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerDirection: right
   playerSpeed: 0.001
   consumerPrefab: {fileID: 1473514914085365190, guid: 406a7ce9a9633c748bacd186de71a389, type: 3}
+  consumerleft: {fileID: 0}
 --- !u!50 &5533806535695561866
 Rigidbody2D:
   serializedVersion: 4
@@ -221,5 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19ce7275625182245ad723a7190306c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerDirection: right
   playerSpeed: 0.05
-  consumerPrefab: {fileID: 0}
+  consumerPrefab: {fileID: 1473514914085365190, guid: 406a7ce9a9633c748bacd186de71a389, type: 3}
+  consumerleft: {fileID: 1083117461363638012, guid: 8e73305698fd71249bec62081501ea0f, type: 3}
